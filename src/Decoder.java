@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class Decoder {
 
     public static String decode(String text, String key) {

@@ -15,12 +15,10 @@ public class App {
         Utils.getOutputFilePath(args).ifPresent(path -> FileManager.writeOnPath(path, decodedContent));
 
         // Final Results
-        System.out.println("################### ");
         System.out.println("| Processing time | " + (finish - start) + " (ms)");
         System.out.println("| Key info        | " + (key) + " (" + (key.length()) + ")");
         System.out.println("| Encoded sample  | " + encodedContent.substring(0, 100));
         System.out.println("| Decoded sample  | " + decodedContent.substring(0, 100));
-        System.out.println("################### ");
 
     }
 
