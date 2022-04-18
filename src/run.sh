@@ -1,3 +1,3 @@
 rm -rf *.class
 javac *.java
-java app $PWD/data_en
+java App $PWD/data_en

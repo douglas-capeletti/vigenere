@@ -12,7 +12,7 @@
 
 `````bash
 javac *.java
-java app $PWD/data_en # [$PWD/data_en_out] - Optional parameter to an output file
+java App $PWD/data_en # [$PWD/data_en_out] - Optional parameter to an output file
 `````
 
 ---
